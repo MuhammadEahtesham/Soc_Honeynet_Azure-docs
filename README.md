@@ -59,13 +59,13 @@ Key objectives:
 
 ![Sentinel Analytics-.png](./doc/Sentinel_Analytics-.png)
 
-![Sentinel Incident Logs-.png](./docs/Sentinel_Incident_Logs-.png)
+![Sentinel Incident Logs-.png](./doc/Sentinel_Incident_Logs-.png)
 
-![Workbooks Sentinel.png](./docs/Workbooks_Sentinel.png)
+![Workbooks Sentinel.png](./doc/Workbooks_Sentinel.png)
 
-![Mitre Attack Mapping Brute Force.png](./docs/Mitre_Attack_Mapping_Brute_Force.png)
+![Mitre Attack Mapping Brute Force.png](./doc/Mitre_Attack_Mapping_Brute_Force.png)
 
-![Sentinel automation Rules.png](./docs/Sentinel_automation_Rules.png)
+![Sentinel automation Rules.png](./doc/Sentinel_automation_Rules.png)
 
 ---
 
