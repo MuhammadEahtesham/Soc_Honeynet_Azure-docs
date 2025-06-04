@@ -1,6 +1,6 @@
 # Building a SOC + Honeynet in Azure (Live Traffic) with Compliance
 
-![Cloud_Soc.png](./docs/Cloud_Soc.png)
+![Cloud_Soc.png](./doc/Cloud_Soc.png)
 
 # **Introduction**
 
@@ -42,11 +42,11 @@ Key objectives:
     - Defender for Cloud Security Alerts (Policy compliance monitoring).
 - Integrated all logs into Microsoft Sentinel for correlation.
 
-![Log Ingestion.png](./docs/Log_Ingestion.png)
+![Log Ingestion.png](./doc/Log_Ingestion.png)
 
-![image.png](./docs/image.png)
+![image.png](./doc/image.png)
 
-![image.png](./docs/image%201.png)
+![image.png](./doc/image%201.png)
 
 ---
 
@@ -57,7 +57,7 @@ Key objectives:
 - Successful login achieved using brute force, triggering an alert in Defender for Cloud.
 - Post-exploitation included reverse shell access, user creation for persistence, scheduled task execution, and credential dumping using Mimikatz.
 
-![Sentinel Analytics-.png](./docs/Sentinel_Analytics-.png)
+![Sentinel Analytics-.png](./doc/Sentinel_Analytics-.png)
 
 ![Sentinel Incident Logs-.png](./docs/Sentinel_Incident_Logs-.png)
 
@@ -80,17 +80,17 @@ Key objectives:
     - Encryption Compliance (Enabled full encryption for sensitive resources).
     - NSG Flow Analysis (Prevented unauthorized remote connections).
 
-![image.png](./docs/image%202.png)
+![image.png](./doc/image%202.png)
 
-![image.png](./docs/image%203.png)
+![image.png](./doc/image%203.png)
 
-![image.png](./docs/image%204.png)
+![image.png](./doc/image%204.png)
 
 ---
 
 ## **Pre-Hardening vs Post-Hardening Security Comparison**
 
-![Open_System.png](./docs/Open_System.png)
+![Open_System.png](./doc/Open_System.png)
 
 ### **Before Hardening (Open System)**
 
@@ -100,17 +100,17 @@ Key objectives:
 - **Security Incidents:** 416
 - **Malicious Flows Allowed:** 2,263
 
-![2025-02-21 04_20_31-mssql-auth-fail - Microsoft Azure.png](./docs/2025-02-21_04_20_31-mssql-auth-fail_-_Microsoft_Azure.png)
+![2025-02-21 04_20_31-mssql-auth-fail - Microsoft Azure.png](./doc/2025-02-21_04_20_31-mssql-auth-fail_-_Microsoft_Azure.png)
 
-![2025-02-21 04_17_05-windows-rdp-auth-fail - Microsoft Azure.png](./docs/2025-02-21_04_17_05-windows-rdp-auth-fail_-_Microsoft_Azure.png)
+![2025-02-21 04_17_05-windows-rdp-auth-fail - Microsoft Azure.png](./doc/2025-02-21_04_17_05-windows-rdp-auth-fail_-_Microsoft_Azure.png)
 
-![2025-02-21 04_18_01-linux-ssh-auth-fail - Microsoft Azure.png](./docs/2025-02-21_04_18_01-linux-ssh-auth-fail_-_Microsoft_Azure.png)
+![2025-02-21 04_18_01-linux-ssh-auth-fail - Microsoft Azure.png](./doc/2025-02-21_04_18_01-linux-ssh-auth-fail_-_Microsoft_Azure.png)
 
-![2025-02-21 04_18_43-linux-ssh-auth-fail - Microsoft Azure.png](./docs/2025-02-21_04_18_43-linux-ssh-auth-fail_-_Microsoft_Azure.png)
+![2025-02-21 04_18_43-linux-ssh-auth-fail - Microsoft Azure.png](./doc/2025-02-21_04_18_43-linux-ssh-auth-fail_-_Microsoft_Azure.png)
 
-![2025-02-21 04_19_13-windows-rdp-auth-fail - Microsoft Azure.png](./docs/2025-02-21_04_19_13-windows-rdp-auth-fail_-_Microsoft_Azure.png)
+![2025-02-21 04_19_13-windows-rdp-auth-fail - Microsoft Azure.png](./doc/2025-02-21_04_19_13-windows-rdp-auth-fail_-_Microsoft_Azure.png)
 
-![2025-02-21 04_19_45-nsg-malicious-allowed-in - Microsoft Azure.png](./docs/2025-02-21_04_19_45-nsg-malicious-allowed-in_-_Microsoft_Azure.png)
+![2025-02-21 04_19_45-nsg-malicious-allowed-in - Microsoft Azure.png](./doc/2025-02-21_04_19_45-nsg-malicious-allowed-in_-_Microsoft_Azure.png)
 
 ### **After Hardening (Secured System)**
 
@@ -122,9 +122,9 @@ Key objectives:
 
 All map queries returned no results due to no instances of malicious activity for the 24-hour period after hardening.
 
-![closed system.drawio.png](./docs/closed_system.drawio.png)
+![closed system.drawio.png](./doc/closed_system.drawio.png)
 
-![image.png](./docs/image%205.png)
+![image.png](./doc/image%205.png)
 
 ---
 
@@ -144,4 +144,4 @@ All map queries returned no results due to no instances of malicious activity fo
 
 ## **Additional Resources**
 
-- [View the Full Incident Report](docs/reports/Report%20Malicious%20Payload.md)
+- [View the Full Incident Report](doc/reports/Report%20Malicious%20Payload.md)
